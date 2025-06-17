@@ -61,9 +61,6 @@ nav a{
     }
 }
 
-header .logo{
-
-}
 
 footer{
   text-align: center;
@@ -72,6 +69,9 @@ footer{
 main{
   padding:9pc 3pc 2pc;
 }
+
+
+/* Home Page */
 
 .home-hero{
   display: flex;
@@ -93,4 +93,25 @@ main{
 
 .home-hero span{
   color: var(--primary-color);
+}
+
+/* About Page */
+
+.about-hero h1{
+  text-align: center;
+}
+.about-details{
+  margin-top: -3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-text{
+  border-right: 1px solid rgba(0,0,0, 0.1);
+  font-size: 14px;
+  padding-right: 2pc;
+  max-width: 50%;
+}
+.about-img{
+  position: sticky;
 }
