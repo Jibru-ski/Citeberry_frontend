@@ -24,10 +24,6 @@ body{
   background-color: var(--bg-color);
 }
 
-.blurry{
-  background-color: rgba(0,0,0, 0.05);
-  backdrop-filter: blur(10px);
-}
 .btn{
   padding: 10px 18px;
   border-radius: 20px;
@@ -36,6 +32,12 @@ body{
   cursor: pointer;
   color: var(--white-color);
   background-color: var(--primary-color);
+}
+
+/* NavBar */
+.blurry{
+  background-color: rgba(0,0,0, 0.08);
+  backdrop-filter: blur(10px);
 }
 
 header{
@@ -114,4 +116,78 @@ main{
 }
 .about-img{
   position: sticky;
+}
+
+/* Contact Page */
+.contact-hero h1{
+  text-align: center;
+}
+.contact-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.contact-info{
+  border-right: 1px solid rgba(0,0,0, 0.1);
+  font-size: 14px;
+  padding-right: 2pc;
+  max-width: 50%;
+}
+.contact-sp-details{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.contact-sp-details span{
+  padding: 5px 10px;
+  display: flex;
+}
+.contact-sp-details span i{
+  margin-right: 15px;
+  font-size: 30px;
+  color: var(--primary-color);
+}
+.contact-details form{
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5pc;
+  border-radius: 20px;
+}
+form span{
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+.input-box{
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.input-box input{
+  height: 50px;
+  width: 100%;
+}
+.input-box input, .input-box textarea{
+  font-size: 12px;
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0, 0.5);
+  outline: none;
+}
+
+.input-box textarea{
+  resize: none;
+  height: 90px;
+  width: 100%;
+}
+form p{
+  font-size: 8px;
+  max-width: 200px;
+}
+.contact-btn{
+  padding: 10px 0;
+  display: flex;
+  justify-content: end;
 }
